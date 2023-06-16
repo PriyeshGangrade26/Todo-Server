@@ -25,7 +25,7 @@ app.use(morgan("dev"));
 
 // Root route handler
 app.get("/", (req, res) => {
-  res.send("to-do-app");
+  res.send("To-Do-App Server");
 });
 
 // Routes
